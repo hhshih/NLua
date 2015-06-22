@@ -48,6 +48,9 @@ _ReSharper*/
 UpgradeLog.XML
 *.ReSharper
 *.userprefs
+*.exe
+*.exe.config
+*.exe.manifest
 
 # http://www.gnu.org/software/automake
 
