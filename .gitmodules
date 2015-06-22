@@ -1,3 +1,9 @@
+[submodule "Core/KopiLua"]
+	path = Core/KopiLua
+	url = git://github.com/NLua/KopiLua.git
 [submodule "Core/KeraLua"]
 	path = Core/KeraLua
 	url = https://github.com/hhshih/KeraLua
+[submodule "tests/LuaTests"]
+	path = tests/LuaTests
+	url = git://github.com/NLua/LuaTests.git
