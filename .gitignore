@@ -51,6 +51,7 @@ UpgradeLog.XML
 *.exe
 *.exe.config
 *.exe.manifest
+*.xml
 
 # http://www.gnu.org/software/automake
 

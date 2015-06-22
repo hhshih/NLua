@@ -272,6 +272,15 @@ end
 			}
 		}
 		#endregion
+        public Lua(IntPtr ptr)
+        {
+            luaState = new KeraLua.LuaState(ptr);
+            translator = new ObjectTranslator(this, luaState);
+            ObjectTranslatorPool.Instance.Add(luaState, translator);
+
+			panicCallback = new LuaNativeFunction (PanicCallback);
+			LuaLib.LuaAtPanic (luaState, panicCallback);
+        }
 
 		public Lua ()
 		{
