@@ -52,6 +52,12 @@ UpgradeLog.XML
 *.exe.config
 *.exe.manifest
 *.xml
+*.opensdf
+*.sdf
+*.bsc
+*.exp
+*.dll
+
 
 # http://www.gnu.org/software/automake
 
