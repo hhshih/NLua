@@ -79,7 +79,7 @@ namespace ConsoleTest
             CCallback.CreateLuaState();
             CCallback.InitLuaState();
             s_lua = new Lua(CCallback.YieldLua());
-            s_lua["shit"] = new Dogoa();
+            s_lua["dogoa"] = new Dogoa();
             s_lua["callmeback"] = (Aha)Shifta;
             s_lua.DoString("callmeback('dogama')");
 
