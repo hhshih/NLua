@@ -276,7 +276,7 @@ namespace NLua
 
 		public static bool LuaNetIsStringStrict (LuaState luaState, int index)
 		{
-			return LuaCore.LuaNetIsStringStrict (luaState, index) != 0;
+			return LuaCore.LuaIsString(luaState, index) != 0;
 		}
 
 		public static bool LuaIsCFunction (LuaState luaState, int index)
